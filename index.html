@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>João Felipe Zeidan | Adestrador de Cães em Brasília</title>
+<meta name="description" content="Adestramento individual em Brasília/DF com foco em agressividade, reatividade e comportamento canino. Atendimento domiciliar e consultoria online.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap">
+<style>
+:root{--pine:#0f2a24;--pine2:#18392f;--pequi:#f4b93a;--paper:#f4f6f2;--ink:#12241f;--mute:#56655f;--line:#d8dfd6;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 Figtree,system-ui,sans-serif;overflow-x:hidden}
+a{color:inherit}img,video{display:block;max-width:100%}
+.skip{position:absolute;left:-999px}.skip:focus{left:12px;top:12px;background:#fff;padding:8px 12px;z-index:99}
+h1,h2,h3{font-family:"Bricolage Grotesque","Arial Narrow",system-ui,sans-serif;line-height:1.02;margin:0;letter-spacing:-.02em}
+h2{font-size:clamp(34px,6.4vw,60px);font-weight:800;max-width:15ch}
+.w{max-width:1120px;margin:0 auto;padding:0 20px}
+section{padding:88px 0}
+.k{display:inline-flex;align-items:center;gap:9px;font-weight:600;font-size:14px;color:var(--mute);margin-bottom:16px}
+.k::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--pequi)}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--pequi);color:var(--pine);font-weight:600;text-decoration:none;padding:16px 26px;border-radius:99px;transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-3px);box-shadow:0 14px 34px -12px rgba(244,185,58,.9)}
+.btn.dk{background:var(--pine);color:#fff}.btn.dk:hover{box-shadow:0 14px 34px -12px rgba(15,42,36,.7)}
+:focus-visible{outline:3px solid var(--pequi);outline-offset:3px}
+/* nav */
+header{position:sticky;top:0;z-index:30;background:rgba(15,42,36,.86);backdrop-filter:blur(12px);color:#fff}
+header .w{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{font:800 18px/1 "Bricolage Grotesque";letter-spacing:.02em;text-decoration:none}.brand i{font-style:normal;color:var(--pequi);margin:0 6px}
+nav{display:none;gap:28px;font-size:15px}nav a{text-decoration:none;opacity:.8}nav a:hover{opacity:1}
+.pill{border:1px solid rgba(255,255,255,.3);padding:9px 16px;border-radius:99px;font-size:14px;font-weight:600;text-decoration:none}.pill:hover{background:var(--pequi);color:var(--pine);border-color:var(--pequi)}
+@media(min-width:800px){nav{display:flex}}
+/* hero */
+.hero{background:var(--pine);color:#fff;padding:52px 0 0;overflow:hidden;position:relative}
+.hero .w{display:grid;gap:40px}
+.hero h1{font-size:clamp(50px,11.5vw,112px);font-weight:800}
+.hero h1 em{font-style:normal;color:var(--pequi);display:block}
+.hero p.l{font-size:19px;color:#cfdad4;max-width:36ch;margin:22px 0 0}
+.cta{margin-top:28px;display:flex;flex-wrap:wrap;gap:18px;align-items:center}
+.ph{position:relative;border-radius:28px 28px 0 0;overflow:hidden;background:linear-gradient(160deg,#24493d,#123028);aspect-ratio:4/5;max-height:640px;width:100%}
+.ph img{width:100%;height:100%;object-fit:cover;object-position:var(--pos,50% 30%)}
+.hero .ph{animation:rise 1s cubic-bezier(.2,.8,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(50px)}}
+@media(min-width:900px){.hero .w{grid-template-columns:1.1fr .9fr;align-items:end;gap:56px}.hero .txt{padding-bottom:80px}}
+.over{position:absolute;left:14px;right:14px;bottom:14px;display:flex;flex-wrap:wrap;gap:8px}
+.over span{background:rgba(15,42,36,.78);backdrop-filter:blur(8px);color:#fff;border-radius:99px;padding:8px 14px;font-size:14px;font-weight:500}
+.band{background:var(--pequi);color:var(--pine);padding:18px 0;font-size:17px}.band b{font:800 20px "Bricolage Grotesque";margin-right:6px}
+.hero{padding-top:36px}.hero h1{font-size:clamp(40px,10.5vw,80px)}
+/* trabalho */
+.two{display:grid;gap:44px;align-items:center}@media(min-width:900px){.two{grid-template-columns:1fr 1fr;gap:72px}}
+.sub{color:var(--mute);max-width:46ch;margin:20px 0 0}
+.probs{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.probs li{padding:20px 0;border-bottom:1px solid var(--line);font:700 clamp(22px,4vw,30px)/1.1 "Bricolage Grotesque";display:flex;justify-content:space-between;align-items:center;transition:padding .25s,color .25s}
+.probs li::after{content:"";width:12px;height:12px;border-radius:50%;background:var(--pequi);opacity:.0;transition:opacity .25s}
+.probs li:hover{padding-left:12px;color:var(--pine2)}.probs li:hover::after{opacity:1}
+.vv{margin:0;justify-self:center;width:min(100%,340px);aspect-ratio:9/16;border-radius:28px;overflow:hidden;background:var(--pine);box-shadow:0 30px 60px -28px rgba(15,42,36,.7)}
+.vv video{width:100%;height:100%;object-fit:cover}
+.top{align-items:start}
+/* metodo */
+.dark{background:var(--pine);color:#fff}.dark .sub{color:#bccbc4}.dark .k{color:#a9bbb3}
+.ph.w2{border-radius:28px;aspect-ratio:4/5;max-height:620px}
+.big{font:800 clamp(24px,4.4vw,34px)/1.1 "Bricolage Grotesque";margin-top:26px;color:var(--pequi)}
+/* passos */
+.steps{display:grid;gap:0;margin-top:48px;border-top:2px solid var(--ink)}
+.st{padding:26px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:64px 1fr;gap:6px 14px}
+.st .n{font:800 40px/1 "Bricolage Grotesque";color:var(--pequi);-webkit-text-stroke:1px var(--pine);grid-row:span 2}
+.st h3{font-size:26px}.st p{margin:0;color:var(--mute)}
+@media(min-width:900px){.steps{grid-template-columns:repeat(4,1fr);border-top:0;gap:22px}.st{display:block;border:0;border-top:2px solid var(--ink);padding-top:22px}.st .n{display:block;margin-bottom:22px}}
+.area{margin-top:36px;display:flex;flex-wrap:wrap;gap:18px 30px;align-items:center;justify-content:space-between}.area p{margin:0;max-width:52ch}
+/* relatos */
+.rel{background:#e9eee6}
+.rh{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:20px}.rh>div:first-child{min-width:0;flex:1 1 300px}
+.arr{display:flex;gap:10px}.arr button{width:50px;height:50px;border-radius:50%;border:1.5px solid var(--ink);background:transparent;font-size:22px;cursor:pointer;color:var(--ink);transition:.2s}.arr button:hover{background:var(--pine);color:#fff}
+.car{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;margin:40px -20px 0;padding:6px 20px 20px;scrollbar-width:none}.car::-webkit-scrollbar{display:none}
+.card{flex:0 0 min(86%,400px);scroll-snap-align:start;background:#fff;border-radius:24px;padding:30px 28px;display:flex;flex-direction:column;gap:14px;border:1px solid var(--line)}
+.card .q{font:800 64px/.5 "Bricolage Grotesque";color:var(--pequi);height:28px}
+.card blockquote{margin:0;font:700 22px/1.2 "Bricolage Grotesque"}
+.card p{margin:0;color:var(--mute);font-size:16px}
+.card cite{font-style:normal;margin-top:auto;padding-top:10px;font-size:15px}.card cite b{display:block}
+/* mais */
+/* sobre */
+.role{color:var(--mute);font-weight:600;font-size:15px;margin-top:14px}
+.acc{margin-top:30px;border:1px solid var(--line);border-radius:20px;background:#fff;overflow:hidden}
+.acc summary{cursor:pointer;list-style:none;padding:20px 24px;font:700 20px "Bricolage Grotesque";display:flex;justify-content:space-between}
+.acc summary::-webkit-details-marker{display:none}.acc summary::after{content:"+";font-size:28px;line-height:.8;color:var(--pine2);transition:transform .25s}
+.acc[open] summary::after{transform:rotate(45deg)}
+.acc ul{margin:0;padding:0 24px 24px;list-style:none;display:grid;gap:10px;font-size:15.5px}.acc li{padding-left:18px;position:relative}.acc li::before{content:"";position:absolute;left:0;top:.6em;width:7px;height:7px;border-radius:50%;background:var(--pequi)}
+.por{font:800 13px "Figtree";letter-spacing:.02em;color:var(--mute);margin-top:12px}
+/* galeria */
+.gal{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:32px}
+.gal .ph{aspect-ratio:3/4;border-radius:20px;max-height:none}
+.gal.m{margin-top:12px}
+.gal .ph img{transition:transform .6s cubic-bezier(.2,.8,.2,1)}.gal .ph:hover img{transform:scale(1.04)}
+@media(min-width:800px){.gal{grid-template-columns:repeat(4,1fr);gap:16px}.gal.m{margin-top:16px}}
+.cap{color:var(--mute);margin-top:18px}
+/* matilha */
+.mat{background:var(--pine2);color:#fff;border-radius:28px;padding:44px 28px}
+.mat h3{font-size:clamp(30px,5vw,44px);font-weight:800;max-width:18ch}.mat p{color:#c6d4ce;max-width:56ch}
+.lk{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}.lk a{border:1px solid rgba(255,255,255,.3);padding:11px 18px;border-radius:99px;text-decoration:none;font-weight:500}.lk a:hover{background:var(--pequi);color:var(--pine);border-color:var(--pequi)}
+/* final */
+.fin{background:var(--pine);color:#fff;text-align:center;padding:110px 0}
+.fin h2{margin:0 auto;max-width:14ch}.fin .sub{margin:20px auto 32px;color:#bccbc4}
+.fin small{display:block;margin-top:22px;color:#a9bbb3;font-size:16px}.fin small a{color:var(--pequi)}
+footer{background:#0a1d18;color:#a9bbb3;padding:36px 0 96px;font-size:15px}
+footer .w{display:grid;gap:10px}footer .brand{color:#fff}footer a{color:#dbe6e0}
+.fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:40;background:var(--pequi);color:var(--pine);font-weight:600;text-decoration:none;padding:14px 20px;border-radius:99px;box-shadow:0 12px 30px -8px rgba(0,0,0,.5);transform:translateY(24px);opacity:0;pointer-events:none;transition:transform .35s,opacity .35s}
+.fab.on{transform:none;opacity:1;pointer-events:auto}
+.rv{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s cubic-bezier(.2,.8,.2,1)}.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<header><div class="w">
+  <a class="brand" href="#">JOÃO<i>|</i>MATILHA</a>
+  <nav><a href="#metodo">O trabalho</a><a href="#historias">Histórias</a><a href="#joao">Sobre João</a></nav>
+  <a class="pill" href="https://wa.me/5561995124680">Vamos conversar ↗</a>
+</div></header>
+
+<main id="conteudo">
+<section class="hero"><div class="w">
+  <div class="txt">
+    <h1>Seu cão pode viver melhor. <em>E vocês também.</em></h1>
+    <p class="l">Adestramento individual para agressividade, reatividade e problemas comportamentais em Brasília/DF.</p>
+    <div class="cta"><a class="btn" href="https://wa.me/5561995124680">Falar com João no WhatsApp ↗</a></div>
+  </div>
+  <div class="ph"><img src="imagens/01_joao_com_caes_hero.jpg" alt="João com um cão no colo, usando o uniforme da Matilha" fetchpriority="high" style="--pos:50% 22%">
+    <div class="over"><span>Atendimento domiciliar</span><span>Consultoria online</span></div></div>
+</div></section>
+<div class="band"><div class="w"><b>Método, equilíbrio e confiança.</b> Adestramento pensado para a vida real.</div></div>
+
+<section id="metodo"><div class="w two top">
+  <div>
+    <div class="rv"><div class="k">Entender para transformar</div>
+    <h2>Comportamento difícil não precisa virar rotina.</h2>
+    <p class="sub">Cada cão exige leitura, método e orientação adequada ao tutor. O trabalho é individualizado e acontece no contexto real em que o cão vive.</p></div>
+    <ul class="probs rv" style="margin-top:40px"><li>Agressividade</li><li>Reatividade</li><li>Destruição e excesso de energia</li><li>Dificuldade com limites e comandos</li><li>Insegurança e adaptação</li></ul>
+  </div>
+  <figure class="vv rv"><video controls preload="none" playsinline poster="videos/01_joao_adestrando-poster.jpg" src="videos/01_joao_adestrando.mp4" aria-label="Vídeo de João em um atendimento de adestramento"></video></figure>
+</div></section>
+
+<section class="dark"><div class="w two">
+  <div class="rv"><div class="k">O trabalho na prática</div>
+  <h2>Método que você pode ver na prática.</h2>
+  <p class="sub">O atendimento é individual e pensado para a realidade de cada cão e de cada família. O tutor participa do processo para entender como conduzir, comunicar e manter o aprendizado no dia a dia.</p>
+  <div class="big">No dia a dia. No ambiente do cão. Junto com você.</div></div>
+  <div class="ph w2 rv"><img loading="lazy" src="imagens/02_joao_atendimento.jpg" alt="João e um tutor passeando com dois cães em um shopping, durante um atendimento de adestramento" style="--pos:50% 55%"></div>
+</div></section>
+
+<section><div class="w">
+  <div class="rv"><div class="k">Como funciona</div><h2>Um processo individual. Um aprendizado compartilhado.</h2></div>
+  <div class="steps">
+    <div class="st rv"><span class="n">01</span><h3>Avaliar e compreender</h3><p>Avaliação do comportamento e da rotina.</p></div>
+    <div class="st rv"><span class="n">02</span><h3>Trabalhar no contexto real</h3><p>Atendimento individual no ambiente em que o cão vive.</p></div>
+    <div class="st rv"><span class="n">03</span><h3>Orientar quem está junto</h3><p>Orientação prática ao tutor durante o processo.</p></div>
+    <div class="st rv"><span class="n">04</span><h3>Dar continuidade ao aprendizado</h3><p>Pacotes de 5 ou 10 aulas; consultoria online disponível.</p></div>
+  </div>
+  <div class="area rv"><p>Atendimento em Águas Claras, Vicente Pires, Guará e Sudoeste — DF.</p><a class="btn dk" href="https://wa.me/5561995124680">Conversar sobre meu cão ↗</a></div>
+</div></section>
+
+<section class="rel" id="historias"><div class="w">
+  <div class="rh"><div><div class="k">Relatos de clientes</div><h2>Histórias de quem viveu a transformação.</h2></div>
+  <div class="arr"><button id="prev" aria-label="Anterior">←</button><button id="next" aria-label="Próximo">→</button></div></div>
+  <div class="car" id="car" tabindex="0" aria-label="Relatos de clientes">
+    <article class="card"><div class="q">“</div><blockquote>A cada dia ela está mais confiante, tranquila e adaptada à nossa rotina.</blockquote><p>Resgatada com medo e insegurança, Gaia evoluiu com a orientação do João e respeito ao seu tempo.</p><cite><b>Raquel</b>Tutora da Gaia</cite></article>
+    <article class="card"><div class="q">“</div><blockquote>O adestramento foi a melhor decisão que tomamos.</blockquote><p>Após 8 aulas, Brenda relata um Zeus mais obediente e calmo, com redução significativa da destruição e mais qualidade de vida.</p><cite><b>Brenda</b>Tutora do Zeus</cite></article>
+    <article class="card"><div class="q">“</div><blockquote>A evolução dela em termos de obediência e convivência com todos aqui em casa foi notável.</blockquote><p>Luis destaca o profissionalismo do João. Os cães da família também já ficaram hospedados com ele.</p><cite><b>Luis Alejandro</b>Tutor da Moka</cite></article>
+    <article class="card"><div class="q">“</div><blockquote>A Charlie aprendeu, eu aprendi e nossa relação melhorou muito.</blockquote><p>Guilherme conta que aprendeu a estabelecer limites e se comunicar melhor com Charlie.</p><cite><b>Guilherme</b>Tutor da Charlie</cite></article>
+    <article class="card"><div class="q">“</div><blockquote>O adestrador João Felipe foi muito atencioso e profissional com a Cléo.</blockquote><cite><b>Maria Augusta</b>Tutora da Cléo</cite></article>
+  </div>
+</div></section>
+
+<section class="mais"><div class="w two top">
+  <div class="rv"><div class="k">Cada cão, uma história</div><h2>Veja mais do trabalho na prática.</h2></div>
+  <figure class="vv rv"><video controls preload="none" playsinline poster="videos/02_video_depoimento-poster.jpg" src="videos/02_video_depoimento.mp4" aria-label="Vídeo de depoimento de cliente"></video></figure>
+</div></section>
+
+<section id="joao" style="padding-top:0"><div class="w two" style="align-items:start">
+  <div class="rv"><div class="ph w2" style="aspect-ratio:4/5"><img loading="lazy" src="imagens/08_joao_retrato_profissional.jpg" alt="Retrato de João Felipe Zeidan" style="--pos:50% 25%"></div>
+  <div class="por">JOÃO FELIPE FERREIRA ZEIDAN</div></div>
+  <div class="rv"><div class="k">Quem está ao seu lado</div>
+  <h2>Técnica, experiência e leitura de comportamento.</h2>
+  <p class="sub">João Felipe Ferreira Zeidan atua há 3 anos com adestramento canino. Já adestrou mais de 30 cães diretamente e participou do trabalho com mais de 150 cães dentro da Matilha Adestramentos.</p>
+  <details class="acc"><summary>Formação e aperfeiçoamento</summary><ul>
+    <li>Gestão Pública — Faculdade Processus, 2016</li><li>Direito — UNICEUB, 2018</li>
+    <li>Pós-Graduação Lato Sensu em Direito Penal e Processual Penal — Faculdade Unyleya, 2020</li>
+    <li>XXII Curso de Policiamento Ambiental — Nível Misto — PMDF, 2024</li>
+    <li>Curso de Formação de Adestradores — Matilha, 2024</li><li>Curso de Adestramento — Ginead, 2024</li>
+    <li>Curso de Adestramento — Escola Cão Companheiro, 2025</li>
+    <li>Extensão em Bem-Estar e Comportamento Animal — Faculdade Focus, 2026</li>
+    <li>Primeiros Socorros para Cães e Gatos, 2026</li><li>Hotel para Cães e Gatos, 2026</li><li>Adestrador de Cães, 2026</li>
+    <li>Instrutor do Curso de Formação de Adestradores — Método Matilha — 2026</li></ul></details></div>
+</div></section>
+
+<section style="padding-top:0"><div class="w">
+  <div class="rv"><div class="k">Conclusões do adestramento</div></div>
+  <div class="gal">
+    <div class="ph rv"><img loading="lazy" src="imagens/11_certificado_kiara.jpg" alt="João com a Kiara e o certificado de conclusão do Método Matilha" style="--pos:50% 45%"></div>
+    <div class="ph rv"><img loading="lazy" src="imagens/10_certificado_duke.jpg" alt="João segurando o Duke e o certificado de conclusão do Método Matilha" style="--pos:50% 45%"></div>
+    <div class="ph rv"><img loading="lazy" src="imagens/07_joao_com_cao_apoio.jpg" alt="Tutora e João com a Yuki e o certificado de conclusão" style="--pos:50% 45%"></div>
+    <div class="ph rv"><img loading="lazy" src="imagens/05_joao_trabalho.jpg" alt="Tutor e João com o Charlie e o certificado de conclusão, em um gramado" style="--pos:50% 55%"></div>
+  </div>
+  <div class="gal m">
+    <div class="ph rv"><img loading="lazy" src="imagens/03_joao_com_cao.jpg" alt="João sentado no chão com um cão deitado, em um momento de descontração" style="--pos:50% 45%"></div>
+    <div class="ph rv"><img loading="lazy" src="imagens/09_joao_dois_caes_parque.jpg" alt="João sentado na grama de um parque com dois cães pequenos" style="--pos:50% 40%"></div>
+    <div class="ph rv"><img loading="lazy" src="imagens/04_certificado_resultado.jpg" alt="João e um cão malhado de pelo caramelo, em um momento de vínculo" style="--pos:50% 40%"></div>
+    <div class="ph rv"><img loading="lazy" src="imagens/12_joao_cao_proximidade.jpg" alt="João sorrindo com um filhote de cavalier no colo" style="--pos:50% 40%"></div>
+  </div>
+  <p class="cap">Registros de conclusão dos cães atendidos.</p>
+</div></section>
+
+<section style="padding-top:0"><div class="w"><div class="mat rv">
+  <div class="k" style="color:#a9bbb3">Vínculo profissional</div>
+  <h3>João faz parte da Matilha Adestramentos.</h3>
+  <p style="margin-top:16px">A Matilha atua com adestramento domiciliar, cursos presenciais e hospedagem para cães. O vínculo reforça a experiência prática e a estrutura profissional por trás do atendimento.</p>
+  <div class="lk"><a href="https://www.instagram.com/matilha.adestramentos/">@matilha.adestramentos ↗</a><a href="https://matilhaadestramentos.com">matilhaadestramentos.com ↗</a></div>
+</div></div></section>
+
+<section class="fin"><div class="w rv">
+  <div class="k" style="color:#a9bbb3">O primeiro passo é uma conversa</div>
+  <h2>Vamos entender o que seu cão precisa?</h2>
+  <p class="sub">Conte brevemente o que está acontecendo e fale diretamente com João pelo WhatsApp.</p>
+  <a class="btn" href="https://wa.me/5561995124680">Falar com João ↗</a>
+  <small>+55 61 99512-4680 · <a href="https://www.instagram.com/jfzeidan/">@jfzeidan</a></small>
+</div></section>
+</main>
+
+<footer><div class="w">
+  <a class="brand" href="#">JOÃO<i>|</i>MATILHA</a>
+  <span>Adestramento canino • Brasília/DF</span>
+  <span><a href="https://www.instagram.com/jfzeidan/">Instagram @jfzeidan</a> | <a href="https://wa.me/5561995124680">WhatsApp</a></span>
+  <span>Vínculo profissional: Matilha Adestramentos</span>
+</div></footer>
+<a class="fab" id="fab" href="https://wa.me/5561995124680">Falar com João ↗</a>
+
+<script>
+var car=document.getElementById('car');
+function go(d){var c=car.querySelector('.card');car.scrollBy({left:d*(c.offsetWidth+18),behavior:'smooth'})}
+document.getElementById('prev').onclick=function(){go(-1)};document.getElementById('next').onclick=function(){go(1)};
+var fab=document.getElementById('fab'),hero=document.querySelector('.hero');
+new IntersectionObserver(function(e){fab.classList.toggle('on',!e[0].isIntersecting)},{threshold:0}).observe(hero);
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+document.querySelectorAll('.rv').forEach(function(el,i){el.style.transitionDelay=(i%3)*70+'ms';io.observe(el)});
+document.querySelectorAll('img').forEach(function(i){i.addEventListener('error',function(){i.style.display='none'})});
+</script>
+</body>
+</html>
